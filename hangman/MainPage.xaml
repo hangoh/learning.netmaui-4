@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hangman.MainPage">
+
+   <Grid Margin="15">
+       <Grid.RowDefinitions>
+           <RowDefinition Height=".6*"/>
+           <RowDefinition Height=".05*"/>
+           <RowDefinition Height=".35*"/>
+       </Grid.RowDefinitions>
+       <VerticalStackLayout Grid.Row="0">
+           <Image Source="{Binding Image}" Grid.Row="0" HeightRequest="300"></Image>
+           <Label x:Name="input_label" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="{Binding Spotlight}" FontSize="45" FontAttributes="Bold"></Label>
+           <Label  VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Text="{Binding Message}" FontSize="45" FontAttributes="Bold"></Label>
+       </VerticalStackLayout>
+        <VerticalStackLayout Grid.Row="1">
+           <Button x:Name="reset_button" Text="Reset" Clicked="reset_button_Clicked"/>
+       </VerticalStackLayout >
+        <FlexLayout  JustifyContent="SpaceEvenly" Wrap="Wrap" Grid.Row="2" x:Name="alpha_input_Grid">  
+        </FlexLayout>
+   </Grid>
+</ContentPage>
+

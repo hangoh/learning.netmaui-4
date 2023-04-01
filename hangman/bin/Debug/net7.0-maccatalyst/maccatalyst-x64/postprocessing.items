@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="hangman.app/Contents/MacOS/hangman">
+      <BCSymbolMapName>hangman.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>hangman.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/gohyuhan/Documents/hangman/hangman/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>hangman.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/gohyuhan/Documents/hangman/hangman</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
