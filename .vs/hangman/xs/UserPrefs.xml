@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{48C44358-27DB-4044-9ADF-C48351295853}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.26" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="hangman/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="hangman/MainPage.xaml">
     <Files>
-      <File FileName="hangman/MainPage.xaml.cs" Line="168" Column="20" />
-      <File FileName="hangman/MainPage.xaml" Line="13" Column="37" />
+      <File FileName="hangman/MainPage.xaml.cs" Line="136" Column="26" />
+      <File FileName="hangman/MainPage.xaml" Line="15" Column="120" />
       <File FileName="hangman/MauiProgram.cs" />
       <File FileName="hangman/AppShell.xaml" />
       <File FileName="hangman/AppShell.xaml.cs" />
@@ -25,16 +21,18 @@
               </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.hangman PreferredExecutionTarget="Android.pixel_5_-_api_33" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.26" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_33" />
 </Properties>
